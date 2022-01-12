@@ -1,0 +1,36 @@
+ nav {
+    position: fixed;
+    /*height: 120px;*/
+    background-color:#4056A1;
+    color: #FFFFFF;
+    width: 100vw;
+    padding-left: 1.5em;
+    padding-right:1.5em;
+    padding-top:1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+#logo {
+    font-family: 'Bungee', sans-serif;
+}
+
+nav .nav-right {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+nav button {
+    background-color: #4056A1;
+    color: rgb(209, 15, 15);
+    border-style: none;
+    cursor: pointer;
+  }
+   

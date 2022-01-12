@@ -3,6 +3,9 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+ 
+/*font-family: 'Bungee', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
 html {
   box-sizing: border-box;
 }
@@ -15,11 +18,24 @@ html {
  */
 
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+ /* color: #545149;*/
+  color:black;
+  /*background-color: #f4f1ec;*/
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #de6000;
+background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+ main{
+   width:90%;
+   margin:auto;
+  /* align-items:center;*/
+   display:flex;
+   flex-direction: column;
+  /* justify-content: center;*/
+ }
