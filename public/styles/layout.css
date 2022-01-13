@@ -18,13 +18,14 @@ html {
  */
 
 body {
- /* color: #545149;*/
-  color:black;
-  /*background-color: #f4f1ec;*/
+  color: #545149;
+  /*color:black;
+  background-color: #d79922;*/
+  background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #de6000;
-background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ 
 }
 
@@ -33,7 +34,7 @@ background-image: url("https://www.transparenttextures.com/patterns/beige-paper.
  */
  main{
    width:90%;
-   margin:auto;
+   margin:0 auto;
   /* align-items:center;*/
    display:flex;
    flex-direction: column;
