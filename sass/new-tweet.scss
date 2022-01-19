@@ -1,0 +1,57 @@
+@import "./variables.scss";
+.newtweet__form {
+
+	width: 100%;
+	padding: 10px;
+	background:$form-background-color;
+	margin: 50px 0px;
+}
+.form__textarea {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	display: block;
+	border: none;
+	border-bottom: 4px solid $form-textarea-border-color;
+	background: $form-background-color;
+	margin: 0;
+	outline: none;
+	overflow: auto;
+	resize: none;
+}
+.form__textarea::placeholder {
+	color: $form-color;
+	opacity: 1;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.form__input {
+	color: $black;
+	font-family: $font-familyBungee;
+	font-size: 20px;
+	line-height: 20px;
+	color: $white;
+	border: none;
+	background-color: $form-submit-button-background-color;
+	text-decoration: none;
+	padding: 6px 12px;
+	cursor: pointer;
+	margin-top: 0.8em;
+}
+.form__counter{
+    float:right;
+    font-family: $font-familyBungee;
+    font-size:1em;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-top: .6em;
+	color:$black;
+
+}
+#newtweet__maxerror{
+	display:none;
+}
+#newtweet__empty{
+	display:none;
+}

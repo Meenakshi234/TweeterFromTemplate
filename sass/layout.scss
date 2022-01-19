@@ -3,12 +3,15 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+ 
 /*font-family: 'Bungee', cursive;
 font-family: 'Source Sans Pro', sans-serif; */
+
+@import "./variables.scss";
+
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -16,19 +19,21 @@ html {
 /*
  * Global layout stuff
  */
+
 body {
-  color: #545149;
-  background-color: #f4f1ec;
+  color:#545149;;
+  background-color: $background-color-body;
   font-size: 24px;
-  font-family: "Source Sans Pro", sans-serif;
-}
+  font-family: $font-familySource;
+  }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
-main {
-  width: 90%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
+ main{
+   width:90%;
+   margin:0 auto;
+   display:flex;
+   flex-direction: column;
+  
+ }

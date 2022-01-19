@@ -1,0 +1,73 @@
+@import "./variables.scss";
+nav {
+    position: fixed;
+    height: 100px;
+	background-color:$background-color-nav;
+    color: $white;
+    width: 100vw;
+    padding: 1.5em 1.5em;
+    display: flex;
+    align-items:center;
+    top:0;
+    left: 0;
+    z-index: 9997;
+}
+
+.logo {
+    font-family: $font-familyBungee;
+    float: left;
+	margin-left: 10px;
+	font-size: 1.5em;
+	color: $white;
+}
+
+.nav-right {
+    font-family: $font-familySource;
+    display: block;
+}
+.bold {
+	font-weight: 600;
+}
+.nav__text {
+	position: fixed;
+	top: 1.5em;
+	right: 2.5em;
+	cursor: pointer;
+	color: $white;
+	float: right;
+	text-decoration: none;
+}
+.navText--borderless {
+	text-align: center;
+	cursor: pointer;
+	font-size: 22px;
+	line-height: 20px;
+	font-weight: 300;
+}
+.btn__icon {
+	font-size: 1em;
+	color: $red;
+	margin-top: 0.2em;
+	animation: float 2s infinite ease;
+}
+@keyframes float {
+	0% {
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(0.5rem);
+		-webkit-transform: translateY(0.5rem);
+	}
+
+	100% {
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+	}
+}
+@media only screen and (max-width: 1025px) {
+	nav {
+		background: none;
+	}
+}
