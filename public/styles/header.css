@@ -1,23 +1,11 @@
-/* .profile--header{
-    height:400px;
-    width:50%;
-    background-color: #d79922;
-	background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-       
-}
-aside {
-	
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-	} */
+
 
 aside {
         background-color: #d79922;
         background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
         height: 400px;
     }
+	/* Tablet and mobile layout*/
 @media only screen and (max-width: 1025px) {
         aside {
             width: 100%;
@@ -52,38 +40,10 @@ aside {
 	display:flex;
 	justify-content: center;
 	
-    /*margin-top:4em;*/
-}
-.profile_image{
-	/*width:300px; */
-}
+   }
 
-.profile__name {
-	text-align: center;
-	width: 100%;
-	margin-top: -30px;
-}
-.profile__name h2 {
-	margin: 0;
-	font-weight: 300;
-    color: #fff;
-}
-
-.profile--bold {
-	font-weight: 600;
-}
 /* Tablet and mobile layout*/
 
-@media only screen and (max-width: 1025px) {
-	aside {
-		width: 100%;
-	}
-
-	.container {
-		margin: 0 auto;
-		width: 90%;
-	}
-}
 @media only screen and (max-width: 1025px) {
 	.profile__image {
 		position: absolute;
@@ -101,4 +61,18 @@ aside {
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
+}
+.profile__name {
+	text-align: center;
+	width: 100%;
+	margin-top: -30px;
+}
+.profile__name h2 {
+	margin: 0;
+	font-weight: 300;
+    color: #fff;
+}
+
+.profile--bold {
+	font-weight: 600;
 }

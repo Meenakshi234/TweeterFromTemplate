@@ -50,15 +50,15 @@
 
 }
 #newtweet__maxerror{
-	padding:10px 25px;
-	display:none;
+	/* padding:10px 25px;
 	border:solid 5px red;
-	color:red;
+	color:red; */
+	display:none;
 
 }
 #newtweet__empty{
-	padding:10px 25px;
-	display:none;
+	/* padding:10px 25px;
 	border:solid 5px red;
-	color:red;
+	color:red; */
+	display:none;
 }
