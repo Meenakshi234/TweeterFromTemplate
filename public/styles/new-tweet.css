@@ -46,5 +46,19 @@
     font-weight: 600;
     margin-right: 8px;
     margin-top: .6em;
+	color:black;
 
+}
+#newtweet__maxerror{
+	padding:10px 25px;
+	display:none;
+	border:solid 5px red;
+	color:red;
+
+}
+#newtweet__empty{
+	padding:10px 25px;
+	display:none;
+	border:solid 5px red;
+	color:red;
 }

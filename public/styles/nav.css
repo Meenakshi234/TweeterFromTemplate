@@ -6,12 +6,10 @@
     width: 100vw;
     padding: 1.5em 1.5em;
     display: flex;
-    /* flex-direction: row; */
-    /*justify-content: space-between;*/
     align-items:center;
     top:0;
     left: 0;
-    z-index: 50;
+    z-index: 9997;
 }
 
 .logo {
@@ -25,7 +23,6 @@
 .nav-right {
     font-family: 'Source Sans Pro', sans-serif;
     display: block;
-    
 }
 .bold {
 	font-weight: 600;
@@ -39,7 +36,7 @@
 	float: right;
 	text-decoration: none;
 }
-.btn--borderless {
+.navText--borderless {
 	text-align: center;
 	cursor: pointer;
 	font-size: 22px;
@@ -52,5 +49,24 @@
 	margin-top: 0.2em;
 	animation: float 2s infinite ease;
 }
+@keyframes float {
+	0% {
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+	}
 
-   
+	50% {
+		transform: translateY(0.5rem);
+		-webkit-transform: translateY(0.5rem);
+	}
+
+	100% {
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+	}
+}
+@media only screen and (max-width: 1025px) {
+	nav {
+		background: none;
+	}
+}
